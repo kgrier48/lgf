@@ -1,3 +1,37 @@
-.flex-container {
-  display: flex;
+.jumbotron.gbf-home {height: 100vh; width: 100%; overflow: hidden; background-color: #ffffff; padding: 0px;margin-bottom: 0px;}
+
+.hero.home {
+  background-image:url(../assets/hero_home.png);
+  background-size: cover;
+}
+
+.hero_logo{width: 100px; height:100px;}
+
+h1{font-family: 'Montserrat', sans-serif !important; font-size: 3em !important;   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;}
+
+.xs-font {font-size: .6em;}
+
+p{font-family: 'Palatino', Georgia, serif; font-size: 1em; line-height: 1.8em;}
+
+.gbf-form{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+  max-width: 720px;
+  border-bottom: 1px solid #063E0C !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gbf-btn-primary{
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background-color: #063E0C;
+  letter-spacing: .1em;
+  border-radius: 40px !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
